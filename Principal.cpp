@@ -17,7 +17,7 @@ void calcularHOG(const Mat& imagen, vector<float>& descriptores) {
 int main(int argc, char* argv[]) {
     
     string rutaModelo = "./hog_svm_model.yml";
-    string rutaImagen = "./amz.png"; //
+    string rutaImagen = "./face.png"; //
 
     // etiquetas
     map<int, string> etiquetaClases = {
